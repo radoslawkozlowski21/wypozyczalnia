@@ -1,0 +1,203 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+	height: 100%;
+}
+
+#baner {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+	background-color: #115bf4;
+	width: 100%;
+	height: 20%;
+    color: white;
+}
+
+#baner h1 {
+	font-size: 350%;
+}
+
+#menu {
+	background-color: #9dbcfb;
+	width: 100%;
+	height: 5%;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-shadow: 0px 0px 1px black;
+}
+
+#menu ul {
+	list-style-type: none;
+}
+
+#menu ul li {
+	float: left;
+	padding: 0px 30px;
+}
+
+#menu a {
+	text-decoration: none;
+	color: white;
+}
+
+#menu #aktywny a {
+	color: #630f0f;
+	text-shadow: none;
+}
+
+#menu a:visited {
+	color: white;
+}
+
+#menu a:hover {
+	color: #a17917;
+	text-shadow: none;
+}
+
+#filtr {
+	background-color: #4f86f7;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+}
+
+#main {
+	background-color: #4f86f7;
+	width: 100%;
+	min-height: 75%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.pojazd {
+	width: 30%;
+	border: 2px solid #115bf4;
+	margin: 20px 20px;
+	float: left;
+	text-align: center;
+	padding-bottom: 20px;
+	background-color: #9dbcfb;
+}
+
+.pojazd img {
+	height: 200px;
+	padding-top: 20px;
+}
+
+.rejestracja {
+	padding: 10px;
+    font-size: 20px;
+    border-width: 1px;
+    border-color: #0f0f0f;
+    background-color: #9dbcfb;
+    border-style: solid;
+}
+
+.napis {
+	font-weight: 800;
+    font-size: 20px;
+    color: white;
+}
+
+.przycisk {
+	padding: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    border-width: 1px;
+    border-color: #0f0f0f;
+    background-color: #9dbcfb;
+    border-style: solid;
+    color: #115bf4;
+}
+
+.przycisk:hover {
+	cursor: pointer;
+	background-color: #115bf4;
+	color: white;
+}
+
+#left {
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+
+#right {
+	width: 50%;
+	float: left;
+}
+
+#text {
+	padding-left: 50px;
+	font-size: 30px;
+	font-weight: 800;
+	color: white;
+	padding-top: 20px;
+}
+
+#aktywne_wypozyczenia {
+	color: white;
+	font-weight: 800;
+}
+
+#aktywne_wypozyczenia h2 {
+	color: #630f0f;
+}
+
+#historia_wypozyczenia {
+	color: white;
+	font-weight: 800;
+}
+
+#historia_wypozyczenia h2 {
+	color: #630f0f;
+}
+
+#wybor td a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: 800;
+    border-width: 1px;
+    border-color: #0f0f0f;
+    background-color: #9dbcfb;
+    border-style: solid;
+    color: #115bf4;
+}
+
+#wybor td a:hover {
+    cursor: pointer;
+	background-color: #115bf4;
+	color: white;
+}
+
+.pojazd a {
+	text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    border-width: 1px;
+    border-color: #0f0f0f;
+    background-color: #9dbcfb;
+    border-style: solid;
+    color: #115bf4;
+}
+
+.pojazd a:hover {
+    cursor: pointer;
+	background-color: #115bf4;
+	color: white;
+}
